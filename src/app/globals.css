@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXUltraLight.ttf");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXThin.ttf");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXRegular.ttf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXMedium.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXLight.ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXExtraBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXDemiBold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IranSansX;
+    src: url("../fonts/IRANSansXBlack.ttf");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    font-family: IranSansX , sans-serif !important;
+}
+body {
+    overflow: hidden;
+}
