@@ -9,7 +9,7 @@ import { MdOutlineMenu } from "react-icons/md";
 
 export default function Header() {
   return (
-    <div className="bg-white h-full w-screen xl:px-32 pr-1 pl-5 lg:px-10 flex flex-col justify-between pb-5 pt-6 items-start border-[1px] lg:border-none">
+    <div className="bg-white h-full w-screen xl:px-32 pr-1 pl-5 lg:px-10 flex flex-col justify-between pb-5 pt-6 items-start border-b-[1px] lg:border-none">
         <div className="flex flex-row justify-between items-center w-full">
             <div className="flex flex-row justify-start items-center w-full">
               <button type="button" className="flex flex-row justify-center items-center lg:hidden w-[40px] h-[40px] rounded-lg bg-[#E9EAEE] p-1 items mr-5"> <MdOutlineMenu className="text-[25px]"/> </button>
