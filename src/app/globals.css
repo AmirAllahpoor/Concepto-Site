@@ -70,5 +70,5 @@
     font-family: IranSansX , sans-serif !important;
 }
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }

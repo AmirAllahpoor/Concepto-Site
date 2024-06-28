@@ -9,12 +9,12 @@ import { MdOutlineMenu } from "react-icons/md";
 
 export default function Header() {
   return (
-    <div className="bg-white h-full w-screen xl:px-32 pr-3 pl-5 lg:px-10 flex flex-col justify-between pb-5 pt-6 items-start border-[1px] lg:border-none">
+    <div className="bg-white h-full w-screen xl:px-32 pr-1 pl-5 lg:px-10 flex flex-col justify-between pb-5 pt-6 items-start border-[1px] lg:border-none">
         <div className="flex flex-row justify-between items-center w-full">
             <div className="flex flex-row justify-start items-center w-full">
               <button type="button" className="flex flex-row justify-center items-center lg:hidden w-[40px] h-[40px] rounded-lg bg-[#E9EAEE] p-1 items mr-5"> <MdOutlineMenu className="text-[25px]"/> </button>
-              <div className="w-[170px] mr-5 lg:mr-0">
-                <Image src={logo} width={100} height={100} priority alt="" layout="responsive"/>
+              <div className="md:w-[170px] w-[150px] mr-5 lg:mr-0">
+                <Image src={logo} width={100} height={100} alt="" layout="responsive" loading="lazy"/>
               </div>
               <div className="mr-2 w-[25rem] hidden lg:flex flex-row-reverse items-center">
                 <input type="text" placeholder="جستجو کسب و کار" className="text-[14px] bg-[#E9EAEE] rounded-[10px] p-[12px] pr-[40px] h-[40px] w-full outline-none text-[#737993]"/>
