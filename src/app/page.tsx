@@ -90,7 +90,7 @@ export default function Home() {
         <PopularCompaniesContainer />
         <div className="flex flex-col justify-center items-center lg:px-[140px] pb-14">
             <div className="flex flex-row justify-between w-full items-center gap-5 lg:px-16 px-6">
-                <h2 className="lg:text-[24px] text-[16px] font-bold w-[11rem] text-[#737993]"> دسته بندی ها </h2>
+                <h2 className="lg:text-[24px] text-[16px] font-bold w-[11rem] text-[#737993]">رویداد اخیر  </h2>
                 <hr className="border-t-[1px] w-full border-[#CBCED7]" />
             </div>
             <div className="flex flex-wrap justify-center items-center lg:gap-5 gap-y-10 py-16">
