@@ -2,8 +2,9 @@ import HeroSection from "@/components/HeroSection/HeroSection";
 import InstructionCard from "@/components/InstructionCard/InstructionCard";
 import InvesmentCard from "@/components/InvesmentCard/InvesmentCard";
 import CategoriesCard from "@/components/CategoriesCard/CategoriesCard";
+import PopularCompaniesContainer from "@/components/PopularCompaniesContainer/PopularCompaniesContainer";
 
-const CategoriesData : any = [
+const CategoriesData : {text : string ; image : string}[] = [
     {
         text : "هوش مصنوعی",
         image : "Categories7"
@@ -77,7 +78,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center items-center lg:gap-24 gap-14 py-16">
                 {
                     CategoriesData &&
-                        CategoriesData.map((Data : any) => {
+                        CategoriesData.map((Data : {text : string ; image : string}) => {
                             return (
                                 <CategoriesCard key={Data.text} text={Data.text} image={Data.image}/>
                             )
@@ -85,6 +86,7 @@ export default function Home() {
                 }
             </div>
         </div>
+        <PopularCompaniesContainer />
       </>
   );
 }
