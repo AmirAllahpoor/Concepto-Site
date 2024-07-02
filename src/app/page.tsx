@@ -3,6 +3,7 @@ import InstructionCard from "@/components/InstructionCard/InstructionCard";
 import InvesmentCard from "@/components/InvesmentCard/InvesmentCard";
 import CategoriesCard from "@/components/CategoriesCard/CategoriesCard";
 import PopularCompaniesContainer from "@/components/PopularCompaniesContainer/PopularCompaniesContainer";
+import RecentEventCard from "@/components/RecentEventCard/RecentEventCard";
 
 const CategoriesData : {text : string ; image : string}[] = [
     {
@@ -87,6 +88,18 @@ export default function Home() {
             </div>
         </div>
         <PopularCompaniesContainer />
+        <div className="flex flex-col justify-center items-center lg:px-[140px] pb-14">
+            <div className="flex flex-row justify-between w-full items-center gap-5 lg:px-16 px-6">
+                <h2 className="lg:text-[24px] text-[16px] font-bold w-[11rem] text-[#737993]"> دسته بندی ها </h2>
+                <hr className="border-t-[1px] w-full border-[#CBCED7]" />
+            </div>
+            <div className="flex flex-wrap justify-center items-center lg:gap-5 gap-y-10 py-16">
+                <RecentEventCard avatar="digikalaeventcard.png" title="بوت کمپ برنامه نویسی دیجی کالا" description="در این دوره شما بر اساس سرفصل های تعیین شده توسط اساتید منتخب دیجی کالا ، بوژان و ..." date="29 بهمن "/>
+                <RecentEventCard avatar="ghazaleventcard.png" title="سکوی پرتاب غزال" description="سکوی پرتاب غزال ، 27 دی ماه سال جاری با هدف شناسایی تیم ها و سرمایه گذاری بر استار..." date="27 دی"/>
+                <RecentEventCard avatar="ghazvineventcard.png" title="سکوی پرتاب قزوین" description="رویداد تخصصی سرمایه گذاری سکوی پرتاب قزوین با هدف شناسایی تیم ها و سرمایه گذاری ..." date="24 ابان"/>
+                <RecentEventCard avatar="startupeventcard.png" title="فراخوان جذب ایده و استارتاپ" description="در حاشیه همایش معدن کاری دیجیتال 1401 ، خانه خلاق و نوآوری دنیای اقتصاد با همکاری..." date="22 شهریور"/>
+            </div>
+        </div>
       </>
   );
 }
