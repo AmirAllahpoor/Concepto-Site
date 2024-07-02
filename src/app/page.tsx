@@ -79,7 +79,7 @@ export default function Home() {
                     CategoriesData &&
                         CategoriesData.map((Data : any) => {
                             return (
-                                <CategoriesCard text={Data.text} image={Data.image}/>
+                                <CategoriesCard key={Data.text} text={Data.text} image={Data.image}/>
                             )
                         })
                 }
