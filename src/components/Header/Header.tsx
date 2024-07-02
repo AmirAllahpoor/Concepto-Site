@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/logo.png"
 import { IoMdSearch } from "react-icons/io";
 import { IoIosFlash } from "react-icons/io";
 import { MdLogin } from "react-icons/md";
@@ -14,7 +13,7 @@ export default function Header() {
             <div className="flex flex-row justify-start items-center w-full">
               <button type="button" className="flex flex-row justify-center items-center lg:hidden w-[40px] h-[40px] rounded-lg bg-[#E9EAEE] p-1 items mr-5"> <MdOutlineMenu className="text-[25px]"/> </button>
               <div className="md:w-[170px] w-[150px] mr-5 lg:mr-0">
-                <Image src={logo} width={100} height={100} alt="" layout="responsive" loading="lazy"/>
+                <Image src="/logo.png" width={100} height={100} alt="" layout="responsive" loading="lazy"/>
               </div>
               <div className="mr-2 w-[25rem] hidden lg:flex flex-row-reverse items-center">
                 <input type="text" placeholder="جستجو کسب و کار" className="text-[14px] bg-[#E9EAEE] rounded-[10px] p-[12px] pr-[40px] h-[40px] w-full outline-none text-[#737993]"/>
