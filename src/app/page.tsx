@@ -7,10 +7,6 @@ import RecentEventCard from "@/components/RecentEventCard/RecentEventCard";
 
 const CategoriesData : {text : string ; image : string}[] = [
     {
-        text : "هوش مصنوعی",
-        image : "Categories7"
-    },
-    {
         text : "برنامه نویسی",
         image : "Categories6"
     },
@@ -25,6 +21,10 @@ const CategoriesData : {text : string ; image : string}[] = [
     {
         text : "گرافیک",
         image : "Categories3"
+    },
+    {
+        text : "فیلم و سینما",
+        image : "Categories9"
     },
     {
         text : "رسانه ها",
@@ -66,7 +66,7 @@ export default function Home() {
               <InvesmentCard title="میلیارد تومان سرمایه گذاری" count="11"/>
               <InvesmentCard title="سرمایه گذار" count="496"/>
           </div>
-       <div className="flex flex-wrap gap-x-10 gap-y-24 justify-center items-center xl:px-[130px] px-10 pb-20 mt-24">
+       <div className="flex flex-wrap gap-x-10 gap-y-32 justify-center items-center xl:px-[130px] px-10 pb-20 mt-24">
             <InstructionCard SrcIMG="instruction1" Title="شرکت های مورد علاقت رو پیدا کن" Background="bg-[#AECFFE]"/>
             <InstructionCard SrcIMG="instruction2" Title="کسب و کارهای مناسب رو پیدا کن" Background="bg-[#79AEFE]"/>
             <InstructionCard SrcIMG="instruction1" Title="با کسب و کارها ارتباط بگیر" Background="bg-[#287EFD]"/>
@@ -95,9 +95,9 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap justify-center items-center lg:gap-5 gap-y-10 py-16">
                 <RecentEventCard avatar="digikalaeventcard.png" title="بوت کمپ برنامه نویسی دیجی کالا" description="در این دوره شما بر اساس سرفصل های تعیین شده توسط اساتید منتخب دیجی کالا ، بوژان و ..." date="29 بهمن "/>
-                <RecentEventCard avatar="ghazaleventcard.png" title="سکوی پرتاب غزال" description="سکوی پرتاب غزال ، 27 دی ماه سال جاری با هدف شناسایی تیم ها و سرمایه گذاری بر استار..." date="27 دی"/>
-                <RecentEventCard avatar="ghazvineventcard.png" title="سکوی پرتاب قزوین" description="رویداد تخصصی سرمایه گذاری سکوی پرتاب قزوین با هدف شناسایی تیم ها و سرمایه گذاری ..." date="24 ابان"/>
-                <RecentEventCard avatar="startupeventcard.png" title="فراخوان جذب ایده و استارتاپ" description="در حاشیه همایش معدن کاری دیجیتال 1401 ، خانه خلاق و نوآوری دنیای اقتصاد با همکاری..." date="22 شهریور"/>
+                <RecentEventCard avatar="digikalaeventcard.png" title="بوت کمپ برنامه نویسی دیجی کالا" description="در این دوره شما بر اساس سرفصل های تعیین شده توسط اساتید منتخب دیجی کالا ، بوژان و ..." date="29 بهمن "/>
+                <RecentEventCard avatar="digikalaeventcard.png" title="بوت کمپ برنامه نویسی دیجی کالا" description="در این دوره شما بر اساس سرفصل های تعیین شده توسط اساتید منتخب دیجی کالا ، بوژان و ..." date="29 بهمن "/>
+                <RecentEventCard avatar="digikalaeventcard.png" title="بوت کمپ برنامه نویسی دیجی کالا" description="در این دوره شما بر اساس سرفصل های تعیین شده توسط اساتید منتخب دیجی کالا ، بوژان و ..." date="29 بهمن "/>
             </div>
         </div>
       </>

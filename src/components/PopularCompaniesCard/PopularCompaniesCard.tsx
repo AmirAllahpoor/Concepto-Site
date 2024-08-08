@@ -9,7 +9,7 @@ export default function PopularCompaniesCard
     {cover : string ; avatar : string ; title : string ; ContactCount : string ; invesmentCount : string ; description : string ; star : string}
 ) {
   return (
-    <div className="flex flex-col justify-between items-center w-[288px] h-[398px] bg-white rounded-[27px] pb-4 shadow-[2px_2px_32px_0px_#1C1C1C0F] cursor-pointer">
+    <div className="flex flex-col justify-between items-center w-[288px] h-[410px] bg-white rounded-[27px] pb-4 border border-[#cecece] cursor-pointer">
         <div className="flex flex-col justify-between items-center">
             <Image alt="" src={`/${cover}`} layout="responsive" width={100} height={100}/>
             <div className="flex flex-row justify-start items-center gap-4 w-full px-5">
