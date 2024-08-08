@@ -88,7 +88,7 @@ export default function Home() {
             </div>
         </div>
         <PopularCompaniesContainer />
-        <div className="flex flex-col justify-center items-center lg:px-[140px] pb-14">
+        <div className="flex flex-col justify-center items-center lg:px-[140px] pb-14 lg:mt-20 mt-32">
             <div className="flex flex-row justify-between w-full items-center gap-5 lg:px-16 px-6">
                 <h2 className="lg:text-[24px] text-[16px] font-bold w-[11rem] text-[#737993]">رویداد اخیر  </h2>
                 <hr className="border-t-[1px] w-full border-[#CBCED7]" />

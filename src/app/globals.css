@@ -102,6 +102,7 @@
 *{
     font-family: IranSansX , sans-serif !important;
 }
-body {
-    overflow-x: hidden;
+
+html {
+    overflow-x:  hidden;
 }
